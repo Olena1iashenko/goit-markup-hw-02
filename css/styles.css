@@ -2,7 +2,11 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF;
-    line-height: 1,5;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
 }
 
 /*Header*/
@@ -26,7 +30,7 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.32px;
 }
 
@@ -38,20 +42,20 @@ body {
     letter-spacing: 0.32px;
 }
 
-.contact-linc {
+.contacts {
     font-style: normal;
 }
 
-a {
+.contact-linc {
     text-decoration: none;
     color: var(--SLATE, #434455);
     font-size: 16px;
+    line-height: 1.5;
     font-weight: 400;
-    line-height: 1,5;
     letter-spacing: 0.32px;
 }
 
-a:hover, a:focus {
+.contact-linc:hover, .contact-linc:focus {
     color: var(--OCEAN, #404BBF);
 }
 
@@ -63,11 +67,11 @@ a:hover, a:focus {
     flex-shrink: 0;
 }
 
-.h1 {
+.main-title {
     color: var(--WHITE, #FFF);
     text-align: center;
-    line-height: 1.07;
     font-size: 56px;
+    line-height: 1.07;
     font-style: normal;
     font-weight: 700;
     line-height: 60px;
@@ -112,7 +116,8 @@ a:hover, a:focus {
     gap: 8px;
 }
 
-.h3-section {
+.third-title-section {
+    color: #2e2f42;
     line-height: 1.2;
     font-family: Roboto;
     font-size: 20px;
