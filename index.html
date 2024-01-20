@@ -4,12 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="description" content="WebStudio description meta tag content" />
     <title>WebStudio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
+        <a class="logo" href="./index.html"
+          >Web<span class="studio">Studio</span></a
+        >
+        <ul class="menu-nav">
           <li><a href="">Studio</a></li>
           <li><a href="">Portfolio</a></li>
           <li><a href="">Contacts</a></li>
@@ -17,21 +34,29 @@
       </nav>
       <address>
         <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+          <li>
+            <a class="contact-linc" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="contact-linc" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
 
     <main>
-      <section>
+      <section class="button-section">
         <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+        <button class="button" type="button">Order Service</button>
       </section>
 
-      <section>
-        <h2>Section-no-name</h2>
-        <ul>
+      <section class="no-name-section">
+        <h2 class="no-name">Section-no-name</h2>
+        <ul class="list">
           <li>
             <h3>Strategy</h3>
             <p>
@@ -63,10 +88,10 @@
         </ul>
       </section>
 
-      <section>
+      <section class="our-team-section">
         <h2>Our Team</h2>
         <ul>
-          <li>
+          <li class="list-team">
             <img
               src="./images/img.jpg"
               alt="photo of WebStudio employee Mark Guerrero"
@@ -76,7 +101,7 @@
             <h3>Mark Guerrero</h3>
             <p>Product Designer</p>
           </li>
-          <li>
+          <li class="list-team">
             <img
               src="./images/img-one.jpg"
               alt="photo of WebStudio employee Tom Ford"
@@ -86,7 +111,7 @@
             <h3>Tom Ford</h3>
             <p>Frontend Developer</p>
           </li>
-          <li>
+          <li class="list-team">
             <img
               src="./images/img-two.jpg"
               alt="photo of WebStudio employee Camila Garcia"
@@ -96,7 +121,7 @@
             <h3>Camila Garcia</h3>
             <p>Marketing</p>
           </li>
-          <li>
+          <li class="list-team">
             <img
               src="./images/img-three.jpg"
               alt="photo of WebStudio employee Daniel Wilson"
@@ -108,11 +133,79 @@
           </li>
         </ul>
       </section>
+
+      <section>
+        <h2>Our Portfolio</h2>
+        <ul>
+          <li class="list-portfolio">
+            <img
+              src="images/img(0).jpg"
+              width="360"
+              height="300"
+              alt="seven screenshots of the banking app"
+            />
+            <h3>Banking App</h3>
+            <p>App</p>
+          </li>
+          <li class="list-portfolio">
+            <img
+              src="images/img(1).jpg"
+              width="360"
+              height="300"
+              alt="the phone touches the payment terminal"
+            />
+            <h3>Cashless Payment</h3>
+            <p>Marketing</p>
+          </li>
+          <li class="list-portfolio">
+            <img
+              src="images/img(2).jpg"
+              width="360"
+              height="300"
+              alt="the smartphone next to the laptop"
+            />
+            <h3>Meditation App</h3>
+            <p>App</p>
+          </li>
+          <li class="list-portfolio">
+            <img
+              src="images/img(3).jpg"
+              width="360"
+              height="300"
+              alt="hands on the steering wheel of the car"
+            />
+            <h3>Taxi Service</h3>
+            <p>Marketing</p>
+          </li>
+          <li class="list-portfolio">
+            <img
+              src="images/img(4).jpg"
+              width="360"
+              height="300"
+              alt="smartphone lock screen and 4 illustrations next to it"
+            />
+            <h3>Screen Illustrations</h3>
+            <p>Design</p>
+          </li>
+          <li class="list-portfolio">
+            <img
+              src="images/img(5).jpg"
+              width="360"
+              height="300"
+              alt="the girl looks at the smartphone"
+            />
+            <h3>Online Courses</h3>
+            <p>Marketing</p>
+          </li>
+        </ul>
+      </section>
     </main>
 
     <footer>
-      <a href="./index.html">WebStudio</a>
-      <p>
+      <a class="logo" href="./index.html"
+        >Web<span class="studio">Studio</span></a
+      >
+      <p class="last-phrase">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
